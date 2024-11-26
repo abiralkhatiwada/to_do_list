@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body {
+    margin: 0px;
+    background: linear-gradient(180deg, white, rgb(71, 3, 3));
+    width: 100vw;
+    height: 100vh;
+}
+#box{
+    margin: 50px auto;   
+    background-color: rgb(113, 66, 66);
+    height: 40vh;
+    width: 50vw;
+    border-radius: 15px;
+}
+#heading{
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    line-height: 80px;
+    margin-top: 5px;
+}
+img{
+
+    height: 37px;
+    vertical-align: middle;
+}
+#input{
+    margin-left: 20px;
+    width:60%;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: larger;
+    padding-left: 10px;
+
+}
+button{
+    cursor: pointer;
+    margin-left: 20px;
+    width:10%;
+    height: 30px;
+    border-radius: 2px;
+}
