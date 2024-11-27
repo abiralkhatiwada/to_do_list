@@ -10,10 +10,12 @@
 }
 #box{
     margin: 50px auto;   
-    background-color: rgb(113, 66, 66);
-    height: 40vh;
+    background-color: rgb(91, 175, 89);
+    min-height: 30vh;
     width: 50vw;
     border-radius: 15px;
+    position: relative;
+    padding-bottom: 20px;
 }
 #heading{
     padding-left: 20px;
@@ -35,6 +37,7 @@ img{
     border-radius: 2px;
     font-size: larger;
     padding-left: 10px;
+    margin-bottom: 20px;
 
 }
 button{
@@ -43,6 +46,25 @@ button{
     width:10%;
     border-radius: 2px;
     height: 32px;
-    border-radius: 2px;
+    border-radius: 40px;
     font-size: large;
+}
+
+ul li{
+    list-style-position: inside;
+    list-style: none;
+    padding: 10px 20px 4px 50px;
+    font-size: 28px;
+    cursor: pointer;
+}
+ul li span{
+    position: absolute;
+    padding-right: 30px;
+    right: 0;
+    width: 90px;
+    font-size: 28px;
+    color: white;
+    background-color: red;
+    text-align: right;
+    border-radius: 20px;
 }
