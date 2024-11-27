@@ -41,6 +41,8 @@ button{
     cursor: pointer;
     margin-left: 20px;
     width:10%;
-    height: 30px;
     border-radius: 2px;
+    height: 32px;
+    border-radius: 2px;
+    font-size: large;
 }
